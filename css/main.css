@@ -1,0 +1,242 @@
+h1 {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 62px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff; }
+
+hr {
+  width: 20%;
+  border-top: 1px solid #fff; }
+
+.entrada {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center; }
+
+button {
+  background-color: #443E44;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400; }
+  button:hover {
+    background-color: #fff;
+    color: #443E44; }
+
+header {
+  background-color: #27AD60;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  z-index: 1000; }
+  header .navbar-nav {
+    margin-top: 20px; }
+    header .navbar-nav a {
+      font-size: 14px;
+      font-weight: 400;
+      font-family: sans-serif; }
+      header .navbar-nav a:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #27AD60; }
+
+#portada {
+  background-image: url(../img/carousel-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: #FFF;
+  text-align: center; }
+  #portada h1 {
+    padding: 2% 5%; }
+  #portada p {
+    font-size: 28px;
+    font-weight: 400; }
+
+#palette {
+  padding-top: 2%; }
+  #palette h1 {
+    margin: 2% 0;
+    color: #443E44; }
+  #palette hr {
+    border-top: 1px solid #443E44; }
+  #palette .container {
+    padding: 3% 6% 1%; }
+    #palette .container .muestra-color {
+      height: 150px;
+      margin-bottom: 10px; }
+    #palette .container .a1 {
+      background-color: #69D2E7; }
+    #palette .container .a2 {
+      background-color: #A7DBDB; }
+    #palette .container .a3 {
+      background-color: #E0E4CC; }
+    #palette .container .a4 {
+      background-color: #F38630; }
+    #palette .container .a5 {
+      background-color: #FA6900; }
+    #palette .container .b1 {
+      background-color: #E94C6F; }
+    #palette .container .b2 {
+      background-color: #542733; }
+    #palette .container .b3 {
+      background-color: #5A6A62; }
+    #palette .container .b4 {
+      background-color: #C6D5CD; }
+    #palette .container .b5 {
+      background-color: #FDF200; }
+    #palette .container .c1 {
+      background-color: #DB3340; }
+    #palette .container .c2 {
+      background-color: #E8B71A; }
+    #palette .container .c3 {
+      background-color: #F7EAC8; }
+    #palette .container .c4 {
+      background-color: #1FDA9A; }
+    #palette .container .c5 {
+      background-color: #28ABE3; }
+    #palette .container .d1 {
+      background-color: #588C73; }
+    #palette .container .d2 {
+      background-color: #F2E394; }
+    #palette .container .d3 {
+      background-color: #F2AE72; }
+    #palette .container .d4 {
+      background-color: #D96459; }
+    #palette .container .d5 {
+      background-color: #8C4646; }
+    #palette .container .e1 {
+      background-color: #D0C91F; }
+    #palette .container .e2 {
+      background-color: #85C4B9; }
+    #palette .container .e3 {
+      background-color: #008BBA; }
+    #palette .container .e4 {
+      background-color: #DF514C; }
+    #palette .container .e5 {
+      background-color: #DC403B; }
+
+#about {
+  background-color: #2C3E50;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: #fff; }
+  #about .container {
+    padding: 0 8%; }
+    #about .container hr {
+      margin-bottom: 50px; }
+    #about .container p {
+      font-size: 14px;
+      font-family: sans-serif;
+      font-weight: 400;
+      margin-bottom: 60px; }
+    #about .container .imagen-about {
+      margin-left: 7%;
+      width: 90%; }
+    #about .container .progress {
+      margin-top: 7px;
+      margin-bottom: 3px;
+      background-color: #DCD5D5;
+      border-radius: 0;
+      height: 10px; }
+      #about .container .progress .progress-bar {
+        border: 2px solid #DCD5D5;
+        line-height: 10; }
+      #about .container .progress .progress-bar-warning {
+        border-radius: 0;
+        background-color: #E67E22; }
+    #about .container .programa {
+      text-transform: uppercase;
+      font-family: 'Lato', sans-serif !important;
+      font-size: 12px;
+      font-weight: 400;
+      margin-left: 5px; }
+
+#service {
+  background-color: #27AD60;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  #service .container {
+    padding: 0 6%;
+    text-align: center; }
+    #service .container .servicios {
+      text-align: center;
+      padding: 40px 10px; }
+      #service .container .servicios .imagen-servicio {
+        width: 150px;
+        background-color: #2C3E50;
+        background-image: url(../img/icon-bg.png);
+        background-size: cover;
+        background-position: center;
+        padding: 15px 10px;
+        margin: 0 auto; }
+      #service .container .servicios h2 {
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 400;
+        padding-bottom: 10px;
+        margin-top: 20px; }
+      #service .container .servicios p {
+        color: #B8BFBB;
+        width: 75%;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 20px auto; }
+      #service .container .servicios:hover {
+        background-color: rgba(0, 0, 0, 0.6); }
+        #service .container .servicios:hover .imagen-servicio {
+          background-image: none;
+          background-color: #A96931;
+          margin: 0 auto;
+          transform: rotate(45deg); }
+        #service .container .servicios:hover h2 {
+          border-bottom: 1px solid white; }
+    #service .container button {
+      text-transform: uppercase;
+      margin: 0 auto; }
+
+#team {
+  background-color: #27AD60;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  #team .perfil img {
+    width: 150px;
+    height: auto;
+    margin: 0 auto; }
+  #team .perfil h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400; }
+  #team .perfil .cargo {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif !important;
+    border-bottom: 1px dashed #B8BFBB;
+    color: #443E44;
+    padding: 15px 0;
+    margin-bottom: 25px; }
+  #team .perfil .bio {
+    color: #B8BFBB;
+    font-weight: 400;
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto; }
+  #team .perfil .redes-sociales-team {
+    margin: 20px 0; }
+    #team .perfil .redes-sociales-team i {
+      color: #B8BFBB;
+      margin: 0 5px; }
+
+#price {
+  background-color: #2C3E50;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+
+/*# sourceMappingURL=main.css.map */
