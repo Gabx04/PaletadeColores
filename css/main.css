@@ -17,7 +17,10 @@ hr {
   margin-bottom: 50px;
   text-align: center; }
 
-button {
+.text-gray {
+  color: #443E44; }
+
+button, #facts form .send {
   background-color: #443E44;
   border: none;
   padding: 10px 20px;
@@ -25,7 +28,7 @@ button {
   color: #fff;
   font-size: 18px;
   font-weight: 400; }
-  button:hover {
+  button:hover, #facts form .send:hover {
     background-color: #fff;
     color: #443E44; }
 
@@ -37,7 +40,8 @@ header {
   padding: 5px;
   z-index: 1000; }
   header .navbar-nav {
-    margin-top: 20px; }
+    margin-top: 20px;
+    background-color: #27AD60; }
     header .navbar-nav a {
       font-size: 14px;
       font-weight: 400;
@@ -45,6 +49,11 @@ header {
       header .navbar-nav a:hover {
         background-color: rgba(0, 0, 0, 0.6);
         color: #27AD60; }
+      header .navbar-nav a:focus {
+        background-color: transparent;
+        color: #fff; }
+  header .icon-bar {
+    background-color: gray; }
 
 #portada {
   background-image: url(../img/carousel-bg.jpg);
@@ -128,6 +137,7 @@ header {
   background-color: #2C3E50;
   padding-top: 120px;
   padding-bottom: 120px;
+  box-shadow: 0 -5px 10px gray;
   color: #fff; }
   #about .container {
     padding: 0 8%; }
@@ -199,7 +209,7 @@ header {
           transform: rotate(45deg); }
         #service .container .servicios:hover h2 {
           border-bottom: 1px solid white; }
-    #service .container button {
+    #service .container button, #service .container #facts form .send, #facts form #service .container .send {
       text-transform: uppercase;
       margin: 0 auto; }
 
@@ -238,5 +248,146 @@ header {
   background-color: #2C3E50;
   padding-top: 120px;
   padding-bottom: 120px; }
+  #price .paquete {
+    margin-top: 40px;
+    border: 1px solid #27AD60;
+    background-color: #2C3E50;
+    color: #FFF;
+    text-align: center; }
+    #price .paquete p {
+      padding: 10px;
+      font-weight: 300;
+      margin-bottom: 0; }
+    #price .paquete .nombre-paquete {
+      text-transform: uppercase;
+      color: #B8BFBB;
+      font-size: 24px;
+      font-weight: 400;
+      padding: 20px;
+      margin-bottom: 0; }
+    #price .paquete .costo {
+      background-color: #27AD60;
+      padding: 20px 0;
+      font-size: 18px;
+      font-weight: 400; }
+      #price .paquete .costo p {
+        padding: 0;
+        margin-bottom: 0; }
+      #price .paquete .costo span {
+        font-size: 48px; }
+      #price .paquete .costo .trial {
+        font-size: 12px; }
+    #price .paquete .caracteristicas-paquete {
+      background-color: #fff;
+      margin-right: 1px; }
+      #price .paquete .caracteristicas-paquete p {
+        padding: 10px;
+        color: #2C3E50;
+        margin-bottom: 0; }
+    #price .paquete .sign-up {
+      padding: 30px;
+      background-color: #2C3E50;
+      margin-top: 2px; }
+    #price .paquete:hover {
+      transform: translateY(-80px);
+      border: 2px solid #E67E22; }
+  #price .paquete-promocion {
+    background-color: #A96931; }
+
+#clients {
+  background-color: #2C3E50;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center; }
+  #clients .cita {
+    margin: 3% 0;
+    padding: 0 20%; }
+    #clients .cita p {
+      color: #B8BFBB;
+      font-size: 20px;
+      font-weight: 400;
+      font-style: italic;
+      margin: 10px auto; }
+    #clients .cita .cliente {
+      color: #E67E22;
+      font-style: normal; }
+
+#facts {
+  background-color: #2C3E50;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center; }
+  #facts p {
+    color: #fff;
+    font-weight: 400; }
+  #facts form {
+    width: 65%;
+    margin: 0 auto; }
+    #facts form input, #facts form .mensaje {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px 0;
+      border: none; }
+    #facts form .mensaje {
+      height: 200px; }
+    #facts form .send {
+      width: 150px;
+      display: block;
+      margin-top: 10px; }
+
+#contact {
+  box-shadow: inset 0 5px 15px black;
+  background-image: url(../img/img-divider-img.jpg);
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: top;
+  padding: 150px 0;
+  text-align: center; }
+  #contact i {
+    color: #fff;
+    margin: 0 5px; }
+
+footer {
+  background-color: #27AD60;
+  padding-bottom: 20px;
+  color: #fff !important;
+  font-weight: 400 !important;
+  font-size: 16px !important; }
+  footer h3 {
+    font-weight: 400; }
+  footer .col-footer {
+    padding: 10px 5%; }
+    footer .col-footer ul {
+      list-style-type: none; }
+      footer .col-footer ul li {
+        text-align: left;
+        margin: 5px 0; }
+    footer .col-footer i {
+      margin-right: 5px; }
+  footer .input-group {
+    border: 1px solid #443E44;
+    background-color: #fff;
+    height: 20px; }
+    footer .input-group span {
+      height: 100%;
+      background-color: #443E44; }
+    footer .input-group button, footer .input-group #facts form .send, #facts form footer .input-group .send {
+      padding: 0 10px;
+      height: 100%; }
+      footer .input-group button i, footer .input-group #facts form .send i, #facts form footer .input-group .send i {
+        color: #E67E22;
+        margin: auto; }
+      footer .input-group button:hover, footer .input-group #facts form .send:hover, #facts form footer .input-group .send:hover {
+        background-color: #443E44; }
+    footer .input-group input, footer .input-group #facts form .mensaje, #facts form footer .input-group .mensaje {
+      border: none; }
+  footer .subscribe {
+    margin-top: 15px;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 400; }
+  footer .creditos {
+    margin-top: 15px; }
 
 /*# sourceMappingURL=main.css.map */
